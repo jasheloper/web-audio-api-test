@@ -18,7 +18,7 @@ Note: the play() and pause() methods being used to play and pause the track are 
 */
 
 playBtn.addEventListener("click", () => {
-    // check if context is in suspended state
+    // check if context is in suspended state (autoplay policy)
     if (audioCtx.state === "suspended") {
         audioCtx.resume();
     }
