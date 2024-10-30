@@ -55,3 +55,9 @@ event handler that changes the value of the audio graph's gain (volume) whenever
 volumeSlider.addEventListener("input", () =>{
     gainNode.gain.value = volumeSlider.value;
 });
+
+/*
+The final thing to do to get this to work is to connect the different nodes in the audio graph up, which is done using the AudioNode.connect() method available on every node type
+*/
+
+audioSource.connect(gainNode).connect(audioCtx.destination);
