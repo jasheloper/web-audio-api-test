@@ -12,6 +12,11 @@ const audioSource = audioCtx.createMediaElementSource(audioElement);
 
 
 // play/pause audio
+
+/*
+Note: the play() and pause() methods being used to play and pause the track are not part of the Web Audio API; they are part of the HTMLMediaElement API, which is different but closely-related.
+*/
+
 playBtn.addEventListener("click", () => {
     // check if context is in suspended state
     if (audioCtx.state === "suspended") {
