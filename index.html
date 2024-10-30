@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Web Audio example</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <style>
+        input {
+            height: 1.5em;
+        }
+    </style>
+
+<!-- We, first of all, include an <audio> element with which we embed an MP3 into the page. We don't include any default browser controls. 
+
+Next, we include a <button> that we'll use to play and stop the music, and an <input> element of type range, which we'll use to adjust the volume of the track while it's playing. -->
+
+    <audio src="outfoxing.mp3"></audio>
+
+    <button class="paused">Play</button>
+    <br />
+    <input type="range" min="0" max="1" step="0.01" value="1" class="volume" />
+
+</body>
+
+</html>
