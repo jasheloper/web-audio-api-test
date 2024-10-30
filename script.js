@@ -40,3 +40,18 @@ audioElement.addEventListener("ended", () => {
     playBtn.setAttribute("class", "paused");
     playBtn.textContent = "Play";
 });
+
+
+// volume 
+
+/*
+GainNode object using the AudioContext.createGain() method, which can be used to adjust the volume of audio fed through it.
+*/
+const gainNode = audioCtx.createGain();
+
+/*
+event handler that changes the value of the audio graph's gain (volume) whenever the slider value is changed.
+*/
+volumeSlider.addEventListener("input", () =>{
+    gainNode.gain.value = volumeSlider.value;
+});
