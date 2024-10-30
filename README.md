@@ -5,6 +5,8 @@ Testing the web audio api
 
 ![Web Audio API Test demo](preview.png "Web Audio API Test demo")
 
+Demo: https://jasheloper.github.io/web-audio-api-test/
+
 <br>
 
 # Resources
