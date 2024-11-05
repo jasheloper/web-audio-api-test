@@ -1,15 +1,4 @@
-# Web Audio API Test
-Testing the web audio api
-
-<br>
-
-![Web Audio API Test demo](preview.png "Web Audio API Test demo")
-
-Demo: https://jasheloper.github.io/web-audio-api-test/
-
-<br>
-
-# Resources
-- Web Audio API :: https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API
-
-- Using the Web Audio API :: https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API
+| DAY   | DESCRIPTION |
+|-------|-------------|
+| Day 1 | • [Intro to Web APIs](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Introduction)
+| Day 2 | • Tested out the Web Audio API for fun @ [github.com/jasheloper/web-audio-api-test](https://github.com/jasheloper/web-audio-api-test) <br> • finished up [Intro to Web APIs](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Introduction)
